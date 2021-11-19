@@ -7,6 +7,32 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+
+
+
+
+
   <style>    
     /* Set black background color, white text and some padding */
     footer {
@@ -65,6 +91,8 @@ NH-44 , PO Nagrota, Jagti, Jammu and Kashmir 181221, India</p>
         <li><a href="publication.html">PUBLICATION</a></li>
         <li><a href="services.html">SERVICES</a></li>
         <li><a href="accomplishments.html">ACCOMPLISHMENTS</a></li>
+        <li><div id="flip">Click togrhtrhthtjytjt </div>
+              <div id="panel">Hello world!</div></li>
 
       </ul>
       <form class="navbar-form navbar-right" role="search">
