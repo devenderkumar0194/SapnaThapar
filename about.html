@@ -1,7 +1,419 @@
-ABOUT PAGE
-<br><br>
-<a href="index.html">HOME</a>
-<a href="about.html">ABOUT</a>
-        <a href="education.html">EDUCATION</a>
-        <a href="experience.html">EXPERIENCE</a>
-        <a href="research.html">RESEARCH</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sapna Thapar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+
+$(document).ready(function(){
+  $("#flip_education").click(function(){
+    $("#panel_education").slideToggle("slow");
+  });
+});
+
+
+
+
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+
+
+
+
+
+  <style>    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #1B1212;
+      color: white;
+      padding: 15px;
+    }
+
+    #myheader
+    {
+      background-color: #28282B ;
+      color: white;
+    }
+
+    p
+    {
+      color: white;
+
+    }
+
+    .col-sm-7
+    {
+      color: #808080
+    }
+  </style>
+</head>
+<body style="background-color: #28282B  ">
+<div id="myheader"><center>
+        <br><br>
+        <img src="image/sapna.jpg" class="img-thumbnail"  height=200px width=200px  style="border-radius: 50%;" >
+        <h2>Sapna Thapar</h2>
+        <p>TCS RSP fellowship<br>
+Department of Electric Engineering<br>
+Indian Institute of Technology Jammu<br>
+NH-44 , PO Nagrota, Jagti, Jammu and Kashmir 181221, India</p>
+</center>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+<!--       <a class="navbar-brand" href="#">Logo</a>
+ -->    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a id="flip" >ABOUT</a></li>
+        <li><a id="flip_education">EDUCATION</a></li>
+        <li><a href="experience.html">EXPERIENCE</a></li>
+        <li><a href="research.html">RESEARCH</a></li>
+        <li><a href="publication.html">PUBLICATION</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="accomplishments.html">ACCOMPLISHMENTS</a></li>
+        </ul>
+
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group input-group">
+          <input type="text" class="form-control" placeholder="Search..">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>        
+        </div>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+ 
+<div  id="panel" class="container text-center" style="background-color: #28282B">    
+  <div class="row">
+    <div class="col-sm-3 well" style="background-color: #808080">
+      <div class="well">
+        <p><a href="#">My Profile</a></p>
+        <img src="image/header.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+      </div>
+      <div class="well">
+        <p><a href="#">Interests</a></p>
+        <p>
+          <span class="label label-default">News</span>
+          <span class="label label-primary">W3Schools</span>
+          <span class="label label-success">Labels</span>
+          <span class="label label-info">Football</span>
+          <span class="label label-warning">Gaming</span>
+          <span class="label label-danger">Friends</span>
+        </p>
+      </div>
+      <div class="alert alert-success fade in">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+        <p><strong>Ey!</strong></p>
+        People are looking at your profile. Find out who.
+      </div>
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+    </div>
+    <div class="col-sm-7">
+    
+      <div class="row">    
+        <div class="col-sm-12">
+          <div class="panel panel-default text-left">
+            <div class="panel-body">
+              <p contenteditable="true">Status: Feeling Blue</p>
+              <button type="button" class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-thumbs-up"></span> Like
+              </button>     
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well">
+           <p>John thapar</p>
+           <img src="image/header.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <div class="well" style="background-color: #808080">
+            <p>Ayan Mondal is an Assistant Professor in the Department of Computer Science and Engineering at Indian Institute of Technology Indore, India. Prior to this, he worked as a Postdoctoral Research Engineer at Univ Rennes, INRIA, CNRS, IRISA, France, under the supervision of Professor Guillaume Pierre. He received his Doctor of Philosophy (Ph.D.) degree from the Department of Computer Science and Engineering, Indian Institute of Technology Kharagpur, India, under the guidance of Professor Sudip Misra in 2020. His Ph.D. thesis is entitled "Traffic Engineering in Software-Defined Data Center Networks for IoT". During his PhD, he received Tata Consultancy Services (TCS) Research Fellowship (India) to support his research. He also received his Master of Science (by Research) (M.S.) degree from the School of Information Technology, Indian Institute of Technology Kharagpur, India, under the guidance of Professor Sudip Misra in 2015. His M.S. thesis is entitled "Distributed Energy Management in Smart Grid". He received his Bachelor of Technology (B.Tech.) degree in Electronics and Communication Engineering from St. Thomas' College of Engineering and Technology, Maulana Abul Kalam Azad University of Technology (Formerly knows as West Bengal University of Technology), India in 2012. He is a IEEE Member and ACM Professional Member.
+
+His current research interests include algorithm design for Data Center Networks, Software-Defined Networks, Sensor-Cloud, Edge/Fog Networks, Smart Grid, and Wireless Ad-Hoc and Sensor Networks. He is a former member of Myriads research team at INRIA, Rennes, France, and Smart Wireless Applications & Networking (SWAN) Research Group, Indian Institute of Technology Kharagpur.
+Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well">
+           <p>Bo</p>
+           <img src="image/header.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <div class="well">
+            <p>Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well">
+           <p>Jane</p>
+           <img src="image/header.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <div class="well">
+            <p>Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well">
+           <p>Anja</p>
+           <img src="image/header.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <div class="well">
+            <p>Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
+          </div>
+        </div>
+      </div>     
+    </div>
+    <div class="col-sm-2 well">
+      <div class="thumbnail">
+        <p>Upcoming Events:</p>
+        <img src="paris.jpg" alt="Paris" width="400" height="300">
+        <p><strong>Paris</strong></p>
+        <p>Fri. 27 November 2015</p>
+        <button class="btn btn-primary">Info</button>
+      </div>      
+      <div class="well">
+        <p>ADS</p>
+      </div>
+      <div class="well">
+        <p>ADS</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- education tag open-->
+ 
+<div  id="panel_education" class="container text-center" style="background-color: #28282B">    
+  <div class="row">
+    <div class="col-sm-3 well" style="background-color: #808080">
+      <div class="well">
+        <p><a href="#">My Profile</a></p>
+        <img src="image/header.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+      </div>
+      <div class="well">
+        <p><a href="#">Interests</a></p>
+        <p>
+          <span class="label label-default">News</span>
+          <span class="label label-primary">W3Schools</span>
+          <span class="label label-success">Labels</span>
+          <span class="label label-info">Football</span>
+          <span class="label label-warning">Gaming</span>
+          <span class="label label-danger">Friends</span>
+        </p>
+      </div>
+      <div class="alert alert-success fade in">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+        <p><strong>Ey!</strong></p>
+        People are looking at your profile. Find out who.
+      </div>
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+    </div>
+    <div class="col-sm-7">
+    
+      <div class="row">    
+        <div class="col-sm-12">
+          <div class="panel panel-default text-left">
+            <div class="panel-body">
+              <p contenteditable="true">Status: Feeling Blue</p>
+              <button type="button" class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-thumbs-up"></span> Like
+              </button>     
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well">
+           <p>John thapar</p>
+           <img src="image/header.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <div class="well" style="background-color: #808080">
+            <p>
+His current research interests include algorithm design for Data Center Networks, Software-Defined Networks, Sensor-Cloud, Edge/Fog Networks, Smart Grid, and Wireless Ad-Hoc and Sensor Networks. He is a former member of Myriads research team at INRIA, Rennes, France, and Smart Wireless Applications & Networking (SWAN) Research Group, Indian Institute of Technology Kharagpur.
+Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well">
+           <p>Bo</p>
+           <img src="image/header.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <div class="well">
+            <p>Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well">
+           <p>Jane</p>
+           <img src="image/header.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <div class="well">
+            <p>Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well">
+           <p>Anja</p>
+           <img src="image/header.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <div class="well">
+            <p>Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
+          </div>
+        </div>
+      </div>     
+    </div>
+    <div class="col-sm-2 well">
+      <div class="thumbnail">
+        <p>Upcoming Events:</p>
+        <img src="paris.jpg" alt="Paris" width="400" height="300">
+        <p><strong>Paris</strong></p>
+        <p>Fri. 27 November 2015</p>
+        <button class="btn btn-primary">Info</button>
+      </div>      
+      <div class="well">
+        <p>ADS</p>
+      </div>
+      <div class="well">
+        <p>ADS</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- education tag close -->
+
+
+<footer class="container-fluid text-center">
+  
+<div class="container text-center">    
+  <h3>Footer Text</h3>
+  <br>
+  <div class="row">
+    <div class="col-sm-2">
+<!--       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+ -->      <p>Partner 1</p>
+    </div>
+    <div class="col-sm-2"> 
+<!--       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+ -->      <p>Partner 2</p>    
+    </div>
+    <div class="col-sm-2"> 
+<!--       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+ -->      <p>Partner 3</p>
+    </div>
+    <div class="col-sm-2"> 
+<!--       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+ -->      <p>Partner 4</p>
+    </div> 
+    <div class="col-sm-2"> 
+<!--       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+ -->      <p>Partner 5</p>
+    </div>     
+    <div class="col-sm-2"> 
+<!--       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+ -->      <p>Partner 6</p>
+    </div> 
+  </div>
+</div><br>
+
+
+
+</footer>
+
+
+<footer id="underfooter">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-8 widget">
+          <p class="text-left"> Copyright © 2016-2022, Ayan Mondal. All rights reserved.</p>
+      </div>
+
+      <div class="col-md-4">
+      <p class="pull-right"><a href="/index.html#">Back to top <i class="fa fa-arrow-circle-up fa-2x"></i></a></p>
+    </div>
+
+    </div> <!-- /row of widgets -->
+  </div>
+</footer>
+
+<script src="./Ayan Mondal_files/jquery.min.js.download"></script>
+<script src="./Ayan Mondal_files/bootstrap.min.js.download"></script>
+<script src="./Ayan Mondal_files/template.js.download"></script>
+
+
+</body>
+</html>
